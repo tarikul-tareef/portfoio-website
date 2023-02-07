@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.primary-btn {
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #fd6e0a;
+  border-radius: 5px;
+  padding: 0 35px;
+  border: none;
+  color: #ffffff;
+}
+/* Header and nav section styles */
+.header {
+  background: #fff8f3;
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 230px;
+  padding-top: 50px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #181818;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav ul li {
+  margin-left: 50px;
+  font-size: 20px;
+  color: #474747;
+}
+/* Header Banner Styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin-left: 230px;
+  margin-right: 38px;
+}
+.banner-subtitle {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+/* main section syles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* About section styles */
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* My-Skills Section Styles */
+.my-skills {
+  margin-top: 130px;
+}
+.skils-container {
+  display: flex;
+  justify-content: space-between;
+}
